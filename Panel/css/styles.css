@@ -1,0 +1,188 @@
+/*-------------------------------------
+#111213
+#14171a
+#181b1f
+
+#979ba1
+---------------------------------------*/
+body {
+    font-family: "Lato", sans-serif;
+	background:#979ba1;
+	color:#fff;
+    transition: background-color .5s;
+	padding:0px;
+	margin:0px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+#main_inside {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*------------------ BGs ----------------*/
+#bg_fond{
+	width: auto;
+	max-width: 500px;
+	height: auto;/*260px;*/
+	text-align: center;
+	background-color: rgba(165,174,182,0.9);
+	border-radius: 20px;
+	margin: auto;
+	margin-top:30px;
+	padding-top: 10px;
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+#Notification{
+	height:20px;
+	padding:10px;
+	Text-align:center;
+	background:#d4122e;
+	box-shadow:0 3px 3px 0 rgba(0,0,0,0.16), 0 0 0 2px rgba(0,0,0,0.08);
+}
+h4{
+	margin:0px;
+	padding:0px;
+}
+#ActionBar{
+	height:40px;
+	background:#14171a;
+	padding:5px;
+	box-shadow:0 3px 3px 0 rgba(0,0,0,0.16), 0 0 0 2px rgba(0,0,0,0.08);
+}
+/*------------------ Tables -------------------------*/
+#StyledTable {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	background:white;
+	width: 100%;
+	min-width:780px;
+	color:black;
+}
+
+#StyledTable td, #StyledTable th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#StyledTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#StyledTable tr:hover {background-color: #ddd;}
+
+#StyledTable th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+}
+#StyledTable{
+	max-width:500px;
+	box-shadow:4px 4px 4px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.3);
+}
+/*---------------------- Tabs --------------------------*/
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 60px;
+	padding-bottom: 20px;
+    /*text-align: center;*/
+}
+
+/* Style each tab content individually */ 
+#div1 {background-color:#f44336;}
+#div2 {background-color:#4caf50;}
+#div3 {background-color:#2196f3;}
+#div4 {background-color:#ff5722;}
+/*------------------ inputs -------------------------*/
+input[type=text] {
+	padding-left: 35px; /* insert your actual img-width + some pixel space */
+	background-size: 32px 32px;
+	
+    width: 250px;
+	height: 35px;
+	font-size:18px;
+	
+	border:2px solid #979ba1;
+	border-radius: 8px;
+	
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	margin-bottom:10px;
+	background-color:#fff;
+}
+
+input[type=password] {
+	padding-left: 35px; /* insert your actual img-width + some pixel space */
+	background-size: 32px 32px;
+	
+    width: 250px;
+	height: 35px;
+	font-size:18px;
+	
+	border:2px solid #979ba1;
+	border-radius: 8px;
+	
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	margin-bottom:10px;
+	background-color:#fff;
+}
