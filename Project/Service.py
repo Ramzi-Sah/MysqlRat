@@ -46,11 +46,11 @@ AppDataDirectoryName = 'WindowsService' # Hidden Folder that will contain the pa
 CompiledAppName = 'ShellExperienceHost.exe' # final name of Compiled Binary
 
 # LocalHost DB Configs
-DB_Cfg_Host = 'localhost'
-DB_Cfg_Port = 3306 # integer
-DB_Cfg_Username = 'RAT'
-DB_Cfg_Password = 'gc77kB62NS'
-DB_Cfg_Name = 'rat'
+DB_Cfg_Host = ''
+DB_Cfg_Port = 3306 # integer / 3306 default mysql server port
+DB_Cfg_Username = ''
+DB_Cfg_Password = ''
+DB_Cfg_Name = ''
 
 # Real-World DB Encrypted Configs
 EncryptedData = """
