@@ -2,7 +2,9 @@
 This MysqlRat allows you to remotely control Microsoft Windows devices directly from your Web Server.
 
 **Author:** Ramzi Sah
+
 **ProjectName:** MySQLRat.py
+
 **Version:** 2.0
 
 **description:**
@@ -14,7 +16,7 @@ This MysqlRat allows you to remotely control Microsoft Windows devices directly 
 * Mysql
 * Python
 
-# Documentation and examples
+### Documentation and examples
 Please refer to the [wiki](https://github.com/Ramzi-Sah/MysqlRat/wiki).
 
 **Donate:**
