@@ -6,7 +6,7 @@ This MysqlRat allows you to remotely control Microsoft Windows devices directly 
    * Wrote Under python 3.6 Windows
 
 ### Requirements
-* a Webserver with PHP 5.6+
+* A Web server with PHP 5.6+
 * Mysql server
 * Python 3
 
