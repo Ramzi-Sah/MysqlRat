@@ -1,5 +1,5 @@
 # Python MySQL Remote Administrative Tool
-This MysqlRat allows you to remotely control Microsoft Windows devices directly from your Web Server.
+This MysqlRat allows you to remotely control MS Windows devices directly from your Web Server.
 
 ### Description
    * Python MySQL Remote Administrative Tool
